@@ -1,0 +1,110 @@
+{
+  "worldName": "Terra Novus",
+  "startYear": 0,
+  "description": "A world born from the ashes of old Earth, where humanity's ideological struggles manifest in new forms.",
+  
+  "countries": [
+    {
+      "id": "technocracy-alpha",
+      "name": "Silicon Dominion",
+      "ideology": "Algorithmic Technocracy",
+      "description": "Perfect efficiency through AI governance. Every citizen optimized. Freedom is a bug to be patched.",
+      "power": 85,
+      "stability": 90,
+      "technology": 95,
+      "population": 200000000,
+      "resources": 70,
+      "alliances": [],
+      "tensions": {
+        "liberty-federation": -60,
+        "harmony-collective": -30
+      }
+    },
+    {
+      "id": "liberty-federation",
+      "name": "Free Ports Alliance",
+      "ideology": "Radical Individual Liberty",
+      "description": "Minimal government, maximum freedom. Chaos is the price of liberty. Markets solve all.",
+      "power": 60,
+      "stability": 50,
+      "technology": 75,
+      "population": 150000000,
+      "resources": 80,
+      "alliances": ["frontier-republics"],
+      "tensions": {
+        "technocracy-alpha": -60,
+        "order-imperium": -70
+      }
+    },
+    {
+      "id": "order-imperium",
+      "name": "The Eternal Order",
+      "ideology": "Benevolent Authoritarianism",
+      "description": "Stability through hierarchy. Peace through control. Dissent is treason, obedience is love.",
+      "power": 80,
+      "stability": 85,
+      "technology": 60,
+      "population": 300000000,
+      "resources": 75,
+      "alliances": [],
+      "tensions": {
+        "liberty-federation": -70,
+        "harmony-collective": -40
+      }
+    },
+    {
+      "id": "harmony-collective",
+      "name": "Unity Sphere",
+      "ideology": "Collective Consciousness",
+      "description": "Shared minds, shared purpose. Individuality dissolved for the greater whole. We are one.",
+      "power": 70,
+      "stability": 95,
+      "technology": 85,
+      "population": 250000000,
+      "resources": 60,
+      "alliances": [],
+      "tensions": {
+        "liberty-federation": -50,
+        "technocracy-alpha": -30
+      }
+    },
+    {
+      "id": "frontier-republics",
+      "name": "Frontier Republics",
+      "ideology": "Democratic Experimentalism",
+      "description": "Messy democracy, constant debate, slow but adaptive. Progress through argument and compromise.",
+      "power": 55,
+      "stability": 60,
+      "technology": 70,
+      "population": 100000000,
+      "resources": 90,
+      "alliances": ["liberty-federation"],
+      "tensions": {
+        "order-imperium": -40
+      }
+    }
+  ],
+  
+  "initialTensions": [
+    "The Silicon Dominion's AI algorithms predict the Free Ports Alliance will collapse within 20 years due to internal chaos.",
+    "The Eternal Order views the Unity Sphere's collective consciousness as a threat to natural hierarchy.",
+    "Resource scarcity in the southern hemisphere is pushing nations toward conflict.",
+    "A philosophical debate rages: Is perfect stability worth the loss of freedom?",
+    "Underground movements in multiple nations question their governments' legitimacy."
+  ],
+  
+  "simulationGoals": [
+    "Observe which ideology survives longest",
+    "Document the hidden costs of 'perfect' systems",
+    "Track moral compromises made in pursuit of stability",
+    "See if cooperation emerges or conflict dominates",
+    "Identify unintended consequences of ideological purity"
+  ],
+
+  "globalMetrics": {
+    "totalPopulation": 1000000000,
+    "averageTechnology": 77,
+    "averageStability": 76,
+    "conflictLevel": 35
+  }
+}
